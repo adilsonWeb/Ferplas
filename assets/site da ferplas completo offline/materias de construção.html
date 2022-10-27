@@ -1,0 +1,683 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0037)http://www.ferplas.net/index.php?p=mc -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="keywords" content="ferplas, angola, industrial, kuito, caala, menongue, luena, huambo, angola, maquinaria, industrial, informática, papelaria, material de construção, viaturas, ford, audi, vw comercial">
+<meta name="description" content="A FERPLAS é uma empresa de carácter industrial e comercial localizada em Angola, com sede social na cidade do Huambo e delegações na Caala, no Kuito, em Menongue e em Luena.">
+<meta name="author" content="PATRICKGOMES">
+<meta name="generator" content="PATRICKGOMES">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta http-equiv="cache-control" content="no-cache">
+<meta name="copyright" content="PATRICKGOMES">
+<meta name="expires" content="never">
+<link rel="shortcut icon" href="http://www.ferplas.net/favicon.ico" type="image/x-icon">
+<link href="./materias de construção_files/css" rel="stylesheet" type="text/css">
+
+
+<link rel="stylesheet" type="text/css" href="./materias de construção_files/css.css">
+
+    <link type="text/css" href="./materias de construção_files/menu.css" rel="stylesheet">
+    <link type="text/css" href="./materias de construção_files/menu_2.css" rel="stylesheet">
+    
+    
+    
+    
+		<link rel="stylesheet" href="./materias de construção_files/styles.css">
+		<link rel="stylesheet" href="./materias de construção_files/iview.css">
+		<link rel="stylesheet" href="./materias de construção_files/style.css">
+        
+        
+            <link href="./materias de construção_files/css(1)" rel="stylesheet" type="text/css">
+
+
+
+
+
+    
+     <!-- Our CSS stylesheet file -->
+        <link rel="stylesheet" href="./materias de construção_files/styles(1).css">
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        
+	<script async="" src="./materias de construção_files/analytics.js.download"></script><script id="facebook-jssdk" src="./materias de construção_files/all.js.download"></script><script type="text/javascript" src="./materias de construção_files/jquery-1.8.2.min.js.download"></script>
+    
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="./materias de construção_files/jquery.mousewheel-3.0.6.pack.js.download"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="./materias de construção_files/jquery.fancybox.js.download"></script>
+	<link rel="stylesheet" type="text/css" href="./materias de construção_files/jquery.fancybox.css" media="screen">    
+    
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="./materias de construção_files/jquery.fancybox-media.js.download"></script>    
+	<script type="text/javascript">
+	var j = jQuery.noConflict();
+	
+			
+
+
+	
+	
+	
+	
+	
+	
+		j(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			j('.fancybox').fancybox();
+
+			/*
+			 *  Different effects
+			 */
+
+
+
+
+
+			// Change title type, overlay closing speed
+			j(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+				
+			});
+
+			// Disable opening and closing animations, change title type
+			j(".fancybox-effects-b").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+
+			// Set custom style, close if clicked, change title type and overlay color
+			j(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				openEffect : 'none',
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background' : 'rgba(238,238,238,0.85)'
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			j(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+			 *  Button helper. Disable animations, hide close button, change title type and content
+			 */
+
+			j('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+
+
+			/*
+			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			 */
+
+			j('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+			/*
+			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+			*/
+			j('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
+
+			/*
+			 *  Open manually
+			 */
+
+			j("#fancybox-manual-a").click(function() {
+				j.fancybox.open('1_b.jpg');
+			});
+
+			j("#fancybox-manual-b").click(function() {
+				j.fancybox.open({
+					href : 'iframe.html',
+					type : 'iframe',
+					padding : 5
+				});
+			});
+
+			j("#fancybox-manual-c").click(function() {
+				j.fancybox.open([
+					{
+						href : '1_b.jpg',
+						title : 'My title'
+					}, {
+						href : '2_b.jpg',
+						title : '2nd title'
+					}, {
+						href : '3_b.jpg'
+					}
+				], {
+					helpers : {
+						thumbs : {
+							width: 75,
+							height: 50
+						}
+					}
+				});
+			});
+
+
+
+
+
+
+
+
+		});
+	</script>
+    
+    
+    
+    
+	<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
+	</style>        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //		Styles
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    <link rel="stylesheet" id="camera-css" href="./materias de construção_files/camera.css" type="text/css" media="all"> 
+    <style>
+		html,body {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		a {
+			color: #09f;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+		#back_to_camera {
+			background: rgba(255,255,255,.9);
+			clear: both;
+			display: block;
+			height: 40px;
+			line-height: 40px;
+			padding: 20px;
+			position: relative;
+			z-index: 1;
+		}
+		.fluid_container {
+			bottom: 0;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			right: 0;
+			top: 0;
+			z-index: 0;
+		}
+		#camera_wrap_4 {
+			bottom: 0;
+			height: 100%;
+			left: 0;
+			margin-bottom: 0!important;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		.camera_bar {
+			z-index: 2;
+		}
+		.camera_thumbs {
+			margin-top: -100px;
+			position: relative;
+			z-index: 1;
+			visibility:hidden;		}
+		.camera_thumbs_cont {
+			border-radius: 0;
+			-moz-border-radius: 0;
+			-webkit-border-radius: 0;
+visibility:hidden;			}
+		.camera_overlayer {
+			opacity: .1;
+		}
+	</style>
+
+
+
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //		Scripts
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    
+    <script type="text/javascript" src="./materias de construção_files/jquery.min.js.download"></script>
+    <script type="text/javascript" src="./materias de construção_files/jquery.mobile.customized.min.js.download"></script>
+    <script type="text/javascript" src="./materias de construção_files/jquery.easing.1.3.js.download"></script> 
+    <script type="text/javascript" src="./materias de construção_files/camera.min.js.download"></script> 
+    
+    <script>
+	
+	var jQuery2 = jQuery.noConflict() 
+	
+		jQuery2(function(){
+			
+			jQuery2('#camera_wrap_4').camera({
+				height: 'auto',
+				loader: 'bar',
+				pagination: false,
+				thumbnails: false,
+				hover: false,
+				opacityOnGrid: false,
+				imagePath: 'images/'
+			});
+
+		});
+	</script>    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    <style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://z-m-static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://z-m-static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://z-m-static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://z-m-static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://z-m-static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:-webkit-sticky;top:0}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://z-m-static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://z-m-static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_customer_chat_bounce_in_v1{animation-duration:250ms;animation-name:fb_bounce_in_v1}.fb_customer_chat_bounce_out_v1{animation-duration:250ms;animation-name:fb_bounce_out_v1}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2_mobile_chat_started{animation-duration:300ms;animation-name:fb_bounce_in_v2_mobile_chat_started;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2_mobile_chat_started{animation-duration:300ms;animation-name:fb_bounce_out_v2_mobile_chat_started;transition-timing-function:ease-in}.fb_customer_chat_bubble_pop_in{animation-duration:250ms;animation-name:fb_customer_chat_bubble_bounce_in_animation}.fb_customer_chat_bubble_animated_no_badge{box-shadow:0 3px 12px rgba(0, 0, 0, .15);transition:box-shadow 150ms linear}.fb_customer_chat_bubble_animated_no_badge:hover{box-shadow:0 5px 24px rgba(0, 0, 0, .3)}.fb_customer_chat_bubble_animated_with_badge{box-shadow:-5px 4px 14px rgba(0, 0, 0, .15);transition:box-shadow 150ms linear}.fb_customer_chat_bubble_animated_with_badge:hover{box-shadow:-5px 8px 24px rgba(0, 0, 0, .2)}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}.fb_mobile_overlay_active{background-color:#fff;height:100%;overflow:hidden;position:fixed;visibility:hidden;width:100%}@keyframes fb_bounce_in_v1{0%{opacity:0;transform:scale(.8, .8);transform-origin:bottom right}80%{opacity:.8;transform:scale(1.03, 1.03)}100%{opacity:1;transform:scale(1, 1)}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_v2_mobile_chat_started{0%{opacity:0;top:20px}100%{opacity:1;top:0}}@keyframes fb_bounce_out_v1{from{opacity:1}to{opacity:0}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_v2_mobile_chat_started{0%{opacity:1;top:0}100%{opacity:0;top:20px}}@keyframes fb_customer_chat_bubble_bounce_in_animation{0%{bottom:6pt;opacity:0;transform:scale(0, 0);transform-origin:center}70%{bottom:18pt;opacity:1;transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}</style></head><body><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./materias de construção_files/QX17B8fU-Vm.html" style="border: none;" __idm_frm__="99"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./materias de construção_files/QX17B8fU-Vm(1).html" style="border: none;" __idm_frm__="100"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="f209f9133e9998c" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="./materias de construção_files/ping.html" style="display: none;"></iframe></div></div></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_PT/all.js#xfbml=1&appId=276106255735995";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    
+    
+    
+    
+    
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38436219-29', 'ferplas.net');
+  ga('send', 'pageview');
+
+</script>
+    
+    
+    
+    
+    
+        <link href="./materias de construção_files/css(2)" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<div id="wrap">
+		
+
+<div id="banner"> 
+
+<div style="background:url(imagens/efeito_foto.png) no-repeat bottom center; width:100%; height:576px; position:absolute; top:0; z-index:2;"></div>
+
+
+<div class="fluid_container" style=" z-index:1;">
+        <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4" style="display: block;"><div class="camera_fakehover"><div class="camera_src camerastarted">
+        
+          
+            <div data-thumb="imagens/banner/2.jpg" data-src="imagens/banner/2.jpg"></div>
+         
+            
+                
+            <div data-thumb="imagens/banner/4.jpg" data-src="imagens/banner/4.jpg"></div>
+         
+            
+                
+            <div data-thumb="imagens/banner/6.jpg" data-src="imagens/banner/6.jpg"></div>
+         
+            
+                
+            <div data-thumb="imagens/banner/1.jpg" data-src="imagens/banner/1.jpg"></div>
+         
+            
+                
+            <div data-thumb="imagens/banner/3.jpg" data-src="imagens/banner/3.jpg"></div>
+         
+            
+      
+        </div><div class="camera_target"><div class="cameraCont"><div class="cameraSlide cameraSlide_0" style="visibility: visible; display: none; z-index: 1; margin-left: 0px; margin-top: 0px;"><img src="./materias de construção_files/2.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div><div class="cameraSlide cameraSlide_1" style="display: none; z-index: 1;"><img src="./materias de construção_files/4.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div><div class="cameraSlide cameraSlide_2" style="display: none; z-index: 1;"><img src="./materias de construção_files/6.jpg" class="imgLoaded" style="visibility: hidden;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div><div class="cameraSlide cameraSlide_3 cameracurrent" style="display: block; z-index: 999;"><img src="./materias de construção_files/1.jpg" class="imgLoaded" style="visibility: hidden;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div><div class="cameraSlide cameraSlide_4 cameranext" style="display: none;"><img src="./materias de construção_files/3.jpg" class="imgLoaded" style="visibility: hidden;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div><div class="cameraSlide cameraSlide_5" style="z-index: 1; display: none;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div></div><div class="camera_overlayer"></div><div class="camera_target_content"><div class="cameraContents"><div class="cameraContent" style="display: none;"></div><div class="cameraContent" style="display: none;"></div><div class="cameraContent" style="display: none;"></div><div class="cameraContent cameracurrent" style="display: block;"></div><div class="cameraContent"></div></div></div><div class="camera_bar" style="top: auto; height: 7px;"><span class="camera_bar_cont" style="opacity: 0.8; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; background-color: rgb(34, 34, 34);"><span id="pie_0" style="opacity: 0.8; position: absolute; background-color: rgb(238, 238, 238); left: 0px; right: 610.96px; top: 2px; bottom: 2px; display: block;"></span></span></div><div class="camera_commands" style="opacity: 0;"><div class="camera_play" style="display: none;"></div><div class="camera_stop" style="display: block;"></div></div><div class="camera_prev" style="opacity: 0;"><span></span></div><div class="camera_next" style="opacity: 0;"><span></span></div></div><div class="camera_loader" style="display: none; visibility: visible;"></div></div><!-- #camera_wrap_3 -->
+
+    </div><!-- .fluid_container -->      
+   
+   
+</div>
+
+
+<div id="main">
+
+<title>FERPLAS</title>
+
+<div class="info_central_center_info">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td width="244"><img src="./materias de construção_files/top_info_left.png"></td>
+    <td></td>
+    <td width="711"><img src="./materias de construção_files/top_info_right.png"></td>
+  </tr>
+  <tr>
+    <td style="background:#1f475c;" width="244" valign="top">
+    <div style="padding:18px;">
+    	<div align="center"><a href="http://www.ferplas.net/index.php"><img src="./materias de construção_files/logo.png" border="0"></a></div>
+        <br>
+        
+        ﻿        <a href="http://www.ferplas.net/index.php?p=quemsomos"> <div class="bt">QUEM SOMOS</div></a>
+        <a href="http://www.ferplas.net/index.php?p=noticias"> <div class="bt">NOTÍCIAS</div></a>
+        
+        <a href="http://www.ferplas.net/index.php?p=mc"> <div class="btcurrent"> MATERIAIS DE CONSTRUÇÃO</div></a>
+        <a href="http://www.ferplas.net/index.php?p=mobiliario"> <div class="bt">MOBILIÁRIO</div></a>
+        <a href="http://www.ferplas.net/index.php?p=carpintaria"> <div class="bt">CARPINTARIA</div></a>
+        
+        
+        <a href="http://www.ferplas.net/index.php?p=tratores"> <div class="bt">TRACTORES E ALFAIAS AGRÍCOLAS</div></a>
+        <a href="http://www.ferplas.net/index.php?p=informatica"> <div class="bt">INFORMÁTICA, ELECTRÓNICA DE CONSUMO E PAPELARIA</div></a>
+        <a href="http://www.ferplas.net/index.php?p=fashionplace"> <div class="bt">FASHION PLACE</div></a>
+        <a href="http://www.ferplas.net/index.php?p=stand"> <div class="bt">STANDS DE VENDA DE VIATURAS</div></a>
+        <a href="http://www.ferplas.net/index.php?p=standmultimarcas"> <div class="bt">STANDS MULTIMARCAS</div></a>
+        <a href="http://www.ferplas.net/index.php?p=oficina"> <div class="bt">OFICINAS AUTOMÓVEL</div></a>
+        
+        <a href="http://www.ferplas.net/index.php?p=pecas"> <div class="bt">LOJAS DE PEÇAS AUTOMÓVEL</div></a>
+        
+        
+        
+        <a href="http://www.ferplas.net/index.php?p=maquinaria"> <div class="bt">MAQUINARIA INDUSTRIAL</div></a>
+        <a href="http://www.ferplas.net/index.php?p=contactos"> <div class="btlast">CONTACTOS / LOCALIZAÇÃO</div></a>
+    </div></td>
+    <td></td>
+    <td width="711" valign="top" style="background:#FFF;"><div style="padding:18px;"><img src="./materias de construção_files/mc.jpg">
+    
+    <br><br>
+    
+    
+            <div class="iview-caption" style="top:295px; margin-left:10px;">MATERIAIS DE CONSTRUÇÃO</div><br>
+
+    
+       Apostamos numa gama muito diversificada de materiais de construção desde os materiais base até aos materiais de acabamento, passando por: varões, tubos, chapas, cimento, telha cerâmica, tectos falsos, tintas, torneiras, louças sanitárias, revestimentos cerâmicos, material eléctrico, canalização, parafusaria, químicos selantes, iluminação, e todo o tipo de materiais necessários para construção desde a raiz até aos acabamentos.<br>    
+  
+  <br><br>
+  
+
+        
+     
+    
+    
+    
+    <a class="fancybox" href="http://www.ferplas.net/imagens/galeria/146046031720150404_135206.jpg" data-fancybox-group="gallery"><img src="./materias de construção_files/thumb_146046031720150404_135206.jpg" border="0"> </a>
+    
+    
+    
+    
+     
+    
+    
+    
+    <a class="fancybox" href="http://www.ferplas.net/imagens/galeria/146046031620150404_135213.jpg" data-fancybox-group="gallery"><img src="./materias de construção_files/thumb_146046031620150404_135213.jpg" border="0"> </a>
+    
+    
+    
+    
+     
+    
+    
+    
+    <a class="fancybox" href="http://www.ferplas.net/imagens/galeria/1460460194IMG_20141010_173038.jpg" data-fancybox-group="gallery"><img src="./materias de construção_files/thumb_1460460194IMG_20141010_173038.jpg" border="0"> </a>
+    
+    
+    
+    
+     
+    
+    
+    
+    <a class="fancybox" href="http://www.ferplas.net/imagens/galeria/1460460193IMG_20141010_173042.jpg" data-fancybox-group="gallery"><img src="./materias de construção_files/thumb_1460460193IMG_20141010_173042.jpg" border="0"> </a>
+    
+    
+    
+    
+     
+    
+    
+    
+    <a class="fancybox" href="http://www.ferplas.net/imagens/galeria/1460460166IMG_20141010_173047.jpg" data-fancybox-group="gallery"><img src="./materias de construção_files/thumb_1460460166IMG_20141010_173047.jpg" border="0"> </a>
+    
+    
+    
+    
+     
+    
+    
+    
+    <a class="fancybox" href="http://www.ferplas.net/imagens/galeria/1460460165IMG_20141010_173055.jpg" data-fancybox-group="gallery"><img src="./materias de construção_files/thumb_1460460165IMG_20141010_173055.jpg" border="0"> </a>
+    
+    
+    
+    
+        
+    
+    
+            <script src="./materias de construção_files/jquery.quicksand.js.download"></script>
+        <script src="./materias de construção_files/script.js.download"></script>
+    
+    
+        
+    
+    </div>
+    
+    
+    </td>
+  </tr>  
+  <tr>
+    <td style="background:#1f475c;" width="244"></td>
+    <td></td>
+    <td width="711"><img src="./materias de construção_files/bottom_info_right.png"><br>
+    
+    
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-bottom:10px; color:#666;">
+  <tbody><tr>
+
+    <td valign="center">
+    
+    
+Todos os direitos reservados<br>@ FERPLAS 2018  
+
+ 
+  </td>
+ 
+  
+  
+    <td valign="center">
+    
+    
+<a href="http://www.ferplas.net/index.php?p=recursoshumanos" class="footer"><span style="font-size:10px;">RECURSOS HUMANOS</span></a> 
+
+ 
+  </td>  
+  
+  
+  
+ 
+    <td valign="center" align="right" style="padding-right:10px;">
+  
+  <span style="font-size:10px;">Desenvolvido por</span><br>
+  <a href="http://www.mug.pt/" target="_blank"><img src="./materias de construção_files/patrickgomes.png" border="0"></a>
+  
+  </td></tr>
+  
+  
+</tbody></table>
+
+
+    
+    
+    
+    
+    
+    </td>
+  </tr>
+  
+    
+</tbody></table>
+
+    
+    
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	
+<div id="page-wrap"></div>
+
+
+</div>
+
+
+
+
+
+
+
+
+</body></html>

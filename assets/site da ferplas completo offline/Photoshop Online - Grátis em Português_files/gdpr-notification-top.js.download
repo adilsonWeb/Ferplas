@@ -1,0 +1,39 @@
+document.addEventListener('DOMContentLoaded', function() {
+    function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length)
+        }
+        return null
+    }
+    if (!getCookie('pixlrnewtoujul18')) {
+        var g = document.createElement('div');
+        g.id = 'gdpr-notification';
+        g.style.background = "#37bed6";
+        g.style.width = "100%";
+        g.style.position = "fixed";
+        g.style.top = "0px";
+        g.style.left = "0px";
+        g.style.fontSize = "21px";
+        g.style.fontFamily = "Lato,sans-serif";
+        g.style.fontWeight = "bold";
+        g.style.color = "#fff";
+        g.style.zIndex = "9999999";
+        g.innerHTML = "<div style='width:100%;padding:20px 120px 20px 50px;font-align:left;'>We have updated ur <a class='gdpr-btn' href='https://pixlr.com/privacy-policy' target='_blank' style='text-decoration:underline;color:#fff;'>Privacy Policy</a> and <a class='gdpr-btn' href='https://pixlr.com/terms-of-use' target='_blank' style='text-decoration:underline;color:#fff;'>Terms of Use</a>.</div><div class='gdpr-close' style='position:absolute;top:10px;right:50px;padding:8px 12px;border:1px #fff solid;border-radius:5px;color:#fff;cursor:pointer;'>Got it</div>";
+        document.body.appendChild(g);
+        document.querySelectorAll('.gdpr-btn')[0].addEventListener('click', function() {
+            var myDate = new Date();
+            myDate.setMonth(myDate.getMonth() + 6);
+            document.cookie = "pixlrnewtoujul18=1;expires=" + myDate + ";domain=.pixlr.com;path=/"
+        });
+        document.querySelectorAll('.gdpr-close')[0].addEventListener('click', function() {
+            var myDate = new Date();
+            myDate.setMonth(myDate.getMonth() + 6);
+            document.cookie = "pixlrnewtoujul18=1;expires=" + myDate + ";domain=.pixlr.com;path=/";
+            document.getElementById('gdpr-notification').style.display = 'none'
+        })
+    }
+});

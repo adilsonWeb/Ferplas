@@ -1,0 +1,157 @@
+
+div#menu {
+    height:55px;
+	background:url(imagens/shdow_bt.png) no-repeat right bottom;
+}
+
+div#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+div#menu ul.menu {
+}
+
+div#menu li {
+    position: relative;
+    z-index: 9;
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+}
+   
+div#menu li:hover>ul {
+    left: -2px;
+}
+
+div#menu li div {
+    list-style: none;
+    float: right;
+    position: absolute;
+    top: 65px;
+    left: 9px;
+    z-index: 11;
+    visibility: hidden;
+    padding: 0 0 2px 0px;
+    _padding: 0 0 2px 0px;
+    margin: 0 0 0 -9px;
+	background-color:#d71367;
+
+
+}
+div#menu li:hover>div {
+    visibility: visible;
+}
+
+div#menu li.current a {}
+
+/* menu::level1 */
+div#menu a {
+    position: relative;
+    z-index: 10;
+    height: 45px;
+    display: block;
+    padding: 25px 15px 0;
+    text-decoration: none;
+    color: #595959;
+}
+
+div#menu a:hover {
+    color: #FFF;
+	background-color:#0f8693;
+}
+
+div#menu a.current {
+    color: #FFF;
+	background-color:#0f8693;
+
+}
+
+div#menu span {
+	font-size:18px;
+    display: block;
+    cursor: pointer;
+    background-repeat: no-repeat;
+	text-transform:uppercase;
+font-family: 'Pathway Gothic One',sans-serif;
+		
+}
+
+
+
+div#menu li { }
+div#menu li.last span{
+}
+
+/* menu::level2 */
+div#menu ul ul li {
+    z-index: 9;	
+}
+
+div#menu ul ul li.last {
+    padding:  0;
+    z-index: 9;	
+	border:none;
+}
+
+div#menu ul ul {
+    z-index: 12;	
+    padding: 0;
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:5px;
+}
+div#menu ul ul a {
+  	width: 195px;
+    height: auto;
+    display: block;
+    background:none;
+    z-index: -1;
+	float:left;
+		padding:10px 30px;
+    background:url(imagens/setapreta.png) no-repeat left center #FFF;
+	color:#333;
+}
+
+div#menu ul ul a span {
+    line-height: 20px;
+    color: #333;
+    font-weight:normal;
+	text-transform:uppercase;
+    background:none;
+	font-size:16px;
+	
+}
+div#menu ul ul a:hover {
+    background:#d71367 url(imagens/setabranca.png) no-repeat left center;
+	
+}
+div#menu ul ul a:hover span {
+    color: #FFF;
+}
+
+div#menu ul ul li.last { background: none; }
+div#menu ul ul li {
+    width: 250px;
+	float:left;
+}
+
+/* menu::level3 */
+div#menu ul ul div {
+    width: 150px;
+    margin: -50px 0 0 190px !important;
+    height: auto;
+    _padding: 0 0 9px 3px;
+}
+div#menu ul ul ul {
+	_padding-right:1px;
+}
+
+/* lava lamp */
+div#menu li.back {
+}
+div#menu li.back .left {
+}
+

@@ -1,0 +1,86 @@
+
+
+/*----------------------------
+	Green filter bar
+-----------------------------*/
+
+
+#filter {
+	display: block;
+	position: relative;
+	width: 700px;
+	text-align:right;
+	font-size:11px;
+
+}
+
+#filter:before, #filter:after {
+
+}
+
+#filter:before {
+	background-position: 0 -47px;
+	left: -78px;
+}
+
+#filter:after {
+	background-position: 0 0;
+	right: -78px;
+}
+
+#filter a{
+	color: #CCC;
+	display: inline-block;
+	line-height: 29px;
+	padding: 0 10px ;
+	text-transform:uppercase;
+
+	margin-right:5px;
+	font-weight:bold;
+	background:#000;
+}
+
+#filter a:hover{
+	text-decoration:none;
+	background:#eeeeee;
+	color:#333;
+}
+
+#filter a.active{
+	background:#c1d531;
+	color:#FFF;
+}
+
+
+/*----------------------------
+	Content area
+-----------------------------*/
+
+
+#container{
+	display:block;
+	overflow:hidden;
+	width: 700px;
+	margin:0 0;
+}
+
+#container li{
+
+	float: left;
+	height: 125px;
+	list-style: none outside none;
+	margin: 6px;
+	position: relative;
+	width: 220px;
+	border:1px solid #FFF;
+
+}
+
+#container ul{
+	overflow:hidden;
+}
+
+#container ul.hidden{
+	display:none;
+}
+

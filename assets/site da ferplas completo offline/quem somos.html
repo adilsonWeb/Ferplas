@@ -1,0 +1,615 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0044)http://www.ferplas.net/index.php?p=quemsomos -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="keywords" content="ferplas, angola, industrial, kuito, caala, menongue, luena, huambo, angola, maquinaria, industrial, informática, papelaria, material de construção, viaturas, ford, audi, vw comercial">
+<meta name="description" content="A FERPLAS é uma empresa de carácter industrial e comercial localizada em Angola, com sede social na cidade do Huambo e delegações na Caala, no Kuito, em Menongue e em Luena.">
+<meta name="author" content="PATRICKGOMES">
+<meta name="generator" content="PATRICKGOMES">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta http-equiv="cache-control" content="no-cache">
+<meta name="copyright" content="PATRICKGOMES">
+<meta name="expires" content="never">
+<link rel="shortcut icon" href="http://www.ferplas.net/favicon.ico" type="image/x-icon">
+<link href="./quem somos_files/css" rel="stylesheet" type="text/css">
+
+
+<link rel="stylesheet" type="text/css" href="./quem somos_files/css.css">
+
+    <link type="text/css" href="./quem somos_files/menu.css" rel="stylesheet">
+    <link type="text/css" href="./quem somos_files/menu_2.css" rel="stylesheet">
+    
+    
+    
+    
+		<link rel="stylesheet" href="./quem somos_files/styles.css">
+		<link rel="stylesheet" href="./quem somos_files/iview.css">
+		<link rel="stylesheet" href="./quem somos_files/style.css">
+        
+        
+            <link href="./quem somos_files/css(1)" rel="stylesheet" type="text/css">
+
+
+
+
+
+    
+     <!-- Our CSS stylesheet file -->
+        <link rel="stylesheet" href="./quem somos_files/styles(1).css">
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        
+	<script async="" src="./quem somos_files/analytics.js.download"></script><script id="facebook-jssdk" src="./quem somos_files/all.js.download"></script><script type="text/javascript" src="./quem somos_files/jquery-1.8.2.min.js.download"></script>
+    
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="./quem somos_files/jquery.mousewheel-3.0.6.pack.js.download"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="./quem somos_files/jquery.fancybox.js.download"></script>
+	<link rel="stylesheet" type="text/css" href="./quem somos_files/jquery.fancybox.css" media="screen">    
+    
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="./quem somos_files/jquery.fancybox-media.js.download"></script>    
+	<script type="text/javascript">
+	var j = jQuery.noConflict();
+	
+			
+
+
+	
+	
+	
+	
+	
+	
+		j(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			j('.fancybox').fancybox();
+
+			/*
+			 *  Different effects
+			 */
+
+
+
+
+
+			// Change title type, overlay closing speed
+			j(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+				
+			});
+
+			// Disable opening and closing animations, change title type
+			j(".fancybox-effects-b").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+
+			// Set custom style, close if clicked, change title type and overlay color
+			j(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				openEffect : 'none',
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background' : 'rgba(238,238,238,0.85)'
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			j(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+			 *  Button helper. Disable animations, hide close button, change title type and content
+			 */
+
+			j('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+
+
+			/*
+			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			 */
+
+			j('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+			/*
+			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+			*/
+			j('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
+
+			/*
+			 *  Open manually
+			 */
+
+			j("#fancybox-manual-a").click(function() {
+				j.fancybox.open('1_b.jpg');
+			});
+
+			j("#fancybox-manual-b").click(function() {
+				j.fancybox.open({
+					href : 'iframe.html',
+					type : 'iframe',
+					padding : 5
+				});
+			});
+
+			j("#fancybox-manual-c").click(function() {
+				j.fancybox.open([
+					{
+						href : '1_b.jpg',
+						title : 'My title'
+					}, {
+						href : '2_b.jpg',
+						title : '2nd title'
+					}, {
+						href : '3_b.jpg'
+					}
+				], {
+					helpers : {
+						thumbs : {
+							width: 75,
+							height: 50
+						}
+					}
+				});
+			});
+
+
+
+
+
+
+
+
+		});
+	</script>
+    
+    
+    
+    
+	<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
+	</style>        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //		Styles
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    <link rel="stylesheet" id="camera-css" href="./quem somos_files/camera.css" type="text/css" media="all"> 
+    <style>
+		html,body {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		a {
+			color: #09f;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+		#back_to_camera {
+			background: rgba(255,255,255,.9);
+			clear: both;
+			display: block;
+			height: 40px;
+			line-height: 40px;
+			padding: 20px;
+			position: relative;
+			z-index: 1;
+		}
+		.fluid_container {
+			bottom: 0;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			right: 0;
+			top: 0;
+			z-index: 0;
+		}
+		#camera_wrap_4 {
+			bottom: 0;
+			height: 100%;
+			left: 0;
+			margin-bottom: 0!important;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		.camera_bar {
+			z-index: 2;
+		}
+		.camera_thumbs {
+			margin-top: -100px;
+			position: relative;
+			z-index: 1;
+			visibility:hidden;		}
+		.camera_thumbs_cont {
+			border-radius: 0;
+			-moz-border-radius: 0;
+			-webkit-border-radius: 0;
+visibility:hidden;			}
+		.camera_overlayer {
+			opacity: .1;
+		}
+	</style>
+
+
+
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //		Scripts
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    
+    <script type="text/javascript" src="./quem somos_files/jquery.min.js.download"></script>
+    <script type="text/javascript" src="./quem somos_files/jquery.mobile.customized.min.js.download"></script>
+    <script type="text/javascript" src="./quem somos_files/jquery.easing.1.3.js.download"></script> 
+    <script type="text/javascript" src="./quem somos_files/camera.min.js.download"></script> 
+    
+    <script>
+	
+	var jQuery2 = jQuery.noConflict() 
+	
+		jQuery2(function(){
+			
+			jQuery2('#camera_wrap_4').camera({
+				height: 'auto',
+				loader: 'bar',
+				pagination: false,
+				thumbnails: false,
+				hover: false,
+				opacityOnGrid: false,
+				imagePath: 'images/'
+			});
+
+		});
+	</script>    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    </head><body><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_PT/all.js#xfbml=1&appId=276106255735995";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    
+    
+    
+    
+    
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38436219-29', 'ferplas.net');
+  ga('send', 'pageview');
+
+</script>
+    
+    
+    
+    
+    
+        <link href="./quem somos_files/css(2)" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<div id="wrap">
+		
+
+<div id="banner"> 
+
+<div style="background:url(imagens/efeito_foto.png) no-repeat bottom center; width:100%; height:576px; position:absolute; top:0; z-index:2;"></div>
+
+
+<div class="fluid_container" style=" z-index:1;">
+        <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4" style="display: block;"><div class="camera_fakehover"><div class="camera_src camerastarted camerasliding">
+        
+          
+            <div data-thumb="imagens/banner/6.jpg" data-src="imagens/banner/6.jpg"></div>
+         
+            
+                
+            <div data-thumb="imagens/banner/1.jpg" data-src="imagens/banner/1.jpg"></div>
+         
+            
+                
+            <div data-thumb="imagens/banner/4.jpg" data-src="imagens/banner/4.jpg"></div>
+         
+            
+                
+            <div data-thumb="imagens/banner/3.jpg" data-src="imagens/banner/3.jpg"></div>
+         
+            
+                
+            <div data-thumb="imagens/banner/2.jpg" data-src="imagens/banner/2.jpg"></div>
+         
+            
+      
+        </div><div class="camera_target"><div class="cameraCont"><div class="cameraSlide cameraSlide_0" style="visibility: visible; display: none; z-index: 1;"><img src="./quem somos_files/6.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div><div class="cameraSlide cameraSlide_1" style="display: block; z-index: 1;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div><div class="cameraSlide cameraSlide_2 cameranext cameracurrent" style="display: block; z-index: 999;"><img src="./quem somos_files/4.jpg" class="imgLoaded" style="visibility: hidden;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div><div class="cameraSlide cameraSlide_3 cameranext" style="display: none;"><img src="http://www.ferplas.net/imagens/banner/3.jpg?1533585711044" class="imgLoaded" style="visibility: hidden;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div><div class="cameraSlide cameraSlide_4"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div><div class="cameraSlide cameraSlide_5" style="z-index: 1; display: none;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 137.805px; left: 0px; top: 0px; width: 182.741px; margin-top: 0.308675px; margin-left: 0px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: 0px; margin-top: 0px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 137.805px; left: 182px; top: 0px; width: 182.741px; margin-top: 0.308675px; margin-left: -0.616785px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -182px; margin-top: 0px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 137.805px; left: 364px; top: 0px; width: 182.741px; margin-top: 0.154338px; margin-left: 0px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -364px; margin-top: 0px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 137.805px; left: 546px; top: 0px; width: 182.741px; margin-top: 0px; margin-left: 0px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -546px; margin-top: 0px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 137.805px; left: 728px; top: 0px; width: 182.741px; margin-top: -0.154338px; margin-left: -0.308393px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -728px; margin-top: 0px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 137.805px; left: 910px; top: 0px; width: 181.743px; margin-top: 0px; margin-left: 0.616785px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -910px; margin-top: 0px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 137.805px; left: 0px; top: 137px; width: 182.741px; margin-top: -0.154338px; margin-left: 0.308393px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: 0px; margin-top: -137px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 137.805px; left: 182px; top: 137px; width: 182.741px; margin-top: -0.154338px; margin-left: -0.925178px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -182px; margin-top: -137px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 137.805px; left: 364px; top: 137px; width: 182.741px; margin-top: 0.154338px; margin-left: 0.616785px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -364px; margin-top: -137px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 137.805px; left: 546px; top: 137px; width: 182.741px; margin-top: 0.308675px; margin-left: -0.925178px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -546px; margin-top: -137px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 137.805px; left: 728px; top: 137px; width: 182.741px; margin-top: 0.154338px; margin-left: -0.616785px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -728px; margin-top: -137px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 137.805px; left: 910px; top: 137px; width: 181.743px; margin-top: -0.154338px; margin-left: 0.616785px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -910px; margin-top: -137px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 136.806px; left: 0px; top: 274px; width: 182.741px; margin-top: 0.154338px; margin-left: -0.308393px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: 0px; margin-top: -274px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 136.806px; left: 182px; top: 274px; width: 182.741px; margin-top: -0.154338px; margin-left: -0.616785px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -182px; margin-top: -274px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 136.806px; left: 364px; top: 274px; width: 182.741px; margin-top: 0.308675px; margin-left: -0.308393px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -364px; margin-top: -274px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 136.806px; left: 546px; top: 274px; width: 182.741px; margin-top: 0px; margin-left: 0.308393px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -546px; margin-top: -274px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 136.806px; left: 728px; top: 274px; width: 182.741px; margin-top: 0.308675px; margin-left: 0.308393px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -728px; margin-top: -274px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 136.806px; left: 910px; top: 274px; width: 181.743px; margin-top: 0px; margin-left: -0.616785px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -910px; margin-top: -274px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 136.806px; left: 0px; top: 410px; width: 182.741px; margin-top: 0.154338px; margin-left: -0.925178px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: 0px; margin-top: -410px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 136.806px; left: 182px; top: 410px; width: 182.741px; margin-top: 0px; margin-left: -0.308393px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -182px; margin-top: -410px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 136.806px; left: 364px; top: 410px; width: 182.741px; margin-top: 0px; margin-left: -0.925178px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -364px; margin-top: -410px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 136.806px; left: 546px; top: 410px; width: 182.741px; margin-top: 0.154338px; margin-left: 0.308393px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -546px; margin-top: -410px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 136.806px; left: 728px; top: 410px; width: 182.741px; margin-top: 0.308675px; margin-left: 0.616785px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -728px; margin-top: -410px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div><div class="cameraappended" style="display: block; overflow: hidden; position: absolute; z-index: 1000; height: 136.806px; left: 910px; top: 410px; width: 181.743px; margin-top: -0.154338px; margin-left: 0px; opacity: 1;"><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; height: 546px; margin-left: -910px; margin-top: -410px; width: 1091px;"><img src="./quem somos_files/1.jpg" class="imgLoaded" data-alignment="" data-portrait="" width="1920" height="546" style="visibility: visible; height: 546px; margin-left: -414.5px; margin-top: 0px; position: absolute; width: 1920px;"><div class="camerarelative" style="width: 1091px; height: 546px;"></div></div></div></div></div><div class="camera_overlayer"></div><div class="camera_target_content"><div class="cameraContents"><div class="cameraContent" style="display: none;"></div><div class="cameraContent" style="display: block; opacity: 0.0608444;"></div><div class="cameraContent cameracurrent"></div><div class="cameraContent"></div><div class="cameraContent"></div></div></div><div class="camera_bar" style="top: auto; height: 7px;"><span class="camera_bar_cont" style="opacity: 0.8; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; background-color: rgb(34, 34, 34);"><span id="pie_0" style="opacity: 0; position: absolute; background-color: rgb(238, 238, 238); left: 0px; right: -54.55px; top: 2px; bottom: 2px; display: block;"></span></span></div><div class="camera_commands" style="opacity: 0;"><div class="camera_play" style="display: none;"></div><div class="camera_stop" style="display: block;"></div></div><div class="camera_prev" style="opacity: 0;"><span></span></div><div class="camera_next" style="opacity: 0;"><span></span></div></div><div class="camera_loader" style="display: none; visibility: visible;"></div></div><!-- #camera_wrap_3 -->
+
+    </div><!-- .fluid_container -->      
+   
+   
+</div>
+
+
+<div id="main">
+
+<title>FERPLAS</title>
+
+<div class="info_central_center_info">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td width="244"><img src="./quem somos_files/top_info_left.png"></td>
+    <td></td>
+    <td width="711"><img src="./quem somos_files/top_info_right.png"></td>
+  </tr>
+  <tr>
+    <td style="background:#1f475c;" width="244" valign="top">
+    <div style="padding:18px;">
+    	<div align="center"><a href="http://www.ferplas.net/index.php"><img src="./quem somos_files/logo.png" border="0"></a></div>
+        <br>
+        
+        ﻿        <a href="http://www.ferplas.net/index.php?p=quemsomos"> <div class="btcurrent"> QUEM SOMOS</div></a>
+        <a href="http://www.ferplas.net/index.php?p=noticias"> <div class="bt">NOTÍCIAS</div></a>
+        
+        <a href="http://www.ferplas.net/index.php?p=mc"> <div class="bt">MATERIAIS DE CONSTRUÇÃO</div></a>
+        <a href="http://www.ferplas.net/index.php?p=mobiliario"> <div class="bt">MOBILIÁRIO</div></a>
+        <a href="http://www.ferplas.net/index.php?p=carpintaria"> <div class="bt">CARPINTARIA</div></a>
+        
+        
+        <a href="http://www.ferplas.net/index.php?p=tratores"> <div class="bt">TRACTORES E ALFAIAS AGRÍCOLAS</div></a>
+        <a href="http://www.ferplas.net/index.php?p=informatica"> <div class="bt">INFORMÁTICA, ELECTRÓNICA DE CONSUMO E PAPELARIA</div></a>
+        <a href="http://www.ferplas.net/index.php?p=fashionplace"> <div class="bt">FASHION PLACE</div></a>
+        <a href="http://www.ferplas.net/index.php?p=stand"> <div class="bt">STANDS DE VENDA DE VIATURAS</div></a>
+        <a href="http://www.ferplas.net/index.php?p=standmultimarcas"> <div class="bt">STANDS MULTIMARCAS</div></a>
+        <a href="http://www.ferplas.net/index.php?p=oficina"> <div class="bt">OFICINAS AUTOMÓVEL</div></a>
+        
+        <a href="http://www.ferplas.net/index.php?p=pecas"> <div class="bt">LOJAS DE PEÇAS AUTOMÓVEL</div></a>
+        
+        
+        
+        <a href="http://www.ferplas.net/index.php?p=maquinaria"> <div class="bt">MAQUINARIA INDUSTRIAL</div></a>
+        <a href="http://www.ferplas.net/index.php?p=contactos"> <div class="btlast">CONTACTOS / LOCALIZAÇÃO</div></a>
+    </div></td>
+    <td></td>
+    <td width="711" valign="top" style="background:#FFF;"><div style="padding:18px; text-align:justify"><img src="./quem somos_files/quemsomos.jpg">
+    
+    <br><br>
+    
+    
+            <div class="iview-caption" style="top:295px; margin-left:10px;">QUEM SOMOS</div><br>
+
+    
+    
+       <b>A “FERPLAS, LDA”, com sede social na cidade do Huambo e delegações na Caala - Huambo, Kuito - Bié, Menongue – Cuando Cubango, Luena – Moxico e em construção de novas filiais em Saurimo – Lunda Sul e Dundo – Lunda Norte; é uma empresa de carácter INDUSTRIAL e COMERCIAL.</b><br><br>Centramos a nossa actividade comercial nos materiais de construção civil, geradores, mobiliário lar, mobiliário de escritório e apetrechamento de instituições, carteiras escolares (fabrico próprio), ferramentas eléctricas, tintas, vernizes e derivados (afinamos qualquer cor à escolha do cliente), equipamentos de protecção e segurança, material eléctrico, revestimentos, produtos siderúrgicos, informática e papelaria. Possuímos nove lojas abertas ao público, três localizadas na Rua Mariano de Almeida no Huambo, uma na Rua Teixeira de Sousa no Huambo, uma na estrada nacional Huambo – Kuito junto ao condomínio da Caixa Social das FAA na entrada do Kuito, uma na estrada principal (Bairro de Kalupassa) na cidade de Menongue, duas na cidade da Caala e uma em Luena na estrada nacional Saurimo - Luena (Bairro do KM 4). Possuímos também uma empresa do grupo dedicada à construção civil e obras públicas, de nome “VISÃO GLOBAL INVESTIMENTOS, LDA. Desta forma é nosso objectivo cobrir uma vasta amplitude e conseguir controlar a qualidade desde o fornecimento de materiais até à entrega de projectos “chave na mão”.<br><br>A nível industrial, o nosso parque fica situado na Caála - Huambo, na zona industrial da CODUME, onde temos instalada uma carpintaria / marcenaria dotada de máquinas modernas com uma grande capacidade de produção, em que produzimos mobiliário escolar, de escritório e lar em serie, com vista ao abastecimento do mercado nacional, produzindo também cozinhas por medida, roupeiros e armários, e todo o tipo de portas, janelas, portadas, pisos e tectos em madeira, mobiliário decorativo, pergolas e todo o tipo de trabalhos de madeira, assim como também toda a nossa base logística para distribuição pelas nossas lojas situadas então no Huambo, Kuito, Menongue, Caala e Luena. Mais recentemente, instalamos também uma carpintaria em Menongue e outra em Luena que fazem parte de plataformas alargadas de oferta de serviços que possuímos no Cuando Cubango e no Moxico.<br><br>Ainda a nível industrial, estamos a operar ao nível de injecção de plásticos em que possuímos uma injectadora de última geração em que produzimos localmente material eléctrico e utensílios lar em vários tipos de plásticos.<br><br>Estamos também a apostar na comercialização e no serviço pós-venda / assistência técnica de tractores e alfaias agrícolas, assim como semi-reboques, cisternas para água e / ou dejectos, tanques de combustível com bomba acoplada, charruas, grades de discos, abre-regos, fresas, semeadores, plantadores, adubadores, capinadeiras, gadanheiras, escarificadores, rippers, carregadores, pás niveladoras, perfuradoras, trituradores, caixas de carga, máquinas de ensilar milho, sachadores, pulverizadores, enfardadeiras, volta-fenos, etc. Neste campo, trabalhamos a nível de tractores com as marcas SAME e LAMBORGHINI, e a nível de alfaias e equipamentos, trabalhamos com as marcas ROCHA, HERCULANO e GALUCHO. A par da mecanização, comercializamos também moagens, descaroladores, limpa bermas, vassouras mecânicas, descascadores de arroz, sistemas de irrigação, rações, fertilizantes e medicamentos para a agro-pecuária.<br><br>Mais recentemente, estamos a desenvolver a actividade automóvel, onde já possuímos SEIS STANDS abertos ao público no Huambo, Kuito, Menongue, Luena e Saurimo e onde além de viaturas, comercializamos peças e possuímos TRÊS oficinas com todo o equipamento para mecânica, bate-chapas, pintura, eletrónica, frio e recauchutagem. Trabalhamos com as marcas FORD, AUDI, VOLKSWAGEN Comerciais, SEAT, CHEVROLET, ISUZU, SUZUKI, LAND ROVER, RANGE ROVER e JAGUAR em que somos o CONCESSIONÁRIO OFICIAL e exclusivo ROBERT HUDSON, DRIVE ANGOLA, CHEVROLET, ISUZU, SUZUKI e JAGUAR LAND ROVER para o HUAMBO, BIÉ, CUANDO CUBANGO, MOXICO, LUNDA SUL e LUNDA NORTE.<br>&nbsp;<br>Ao apostarmos na proximidade e no serviço após-venda, queremos fomentar uma relação de confiança com os nossos clientes, e desta forma contribuir para que as pessoas e instituições que apostem nos nossos produtos e equipamentos tenham a certeza de que terão todo o tipo de assistência e ajuda em qualquer solicitação à nossa empresa / grupo.<br><br>    
+    
+    
+    </div>
+    
+    
+    </td>
+  </tr>  
+  <tr>
+    <td style="background:#1f475c;" width="244"></td>
+    <td></td>
+    <td width="711"><img src="./quem somos_files/bottom_info_right.png"><br>
+    
+    
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-bottom:10px; color:#666;">
+  <tbody><tr>
+
+    <td valign="center">
+    
+    
+Todos os direitos reservados<br>@ FERPLAS 2018  
+
+ 
+  </td>
+ 
+  
+  
+    <td valign="center">
+    
+    
+<a href="http://www.ferplas.net/index.php?p=recursoshumanos" class="footer"><span style="font-size:10px;">RECURSOS HUMANOS</span></a> 
+
+ 
+  </td>  
+  
+  
+  
+ 
+    <td valign="center" align="right" style="padding-right:10px;">
+  
+  <span style="font-size:10px;">Desenvolvido por</span><br>
+  <a href="http://www.mug.pt/" target="_blank"><img src="./quem somos_files/patrickgomes.png" border="0"></a>
+  
+  </td></tr>
+  
+  
+</tbody></table>
+
+
+    
+    
+    
+    
+    
+    </td>
+  </tr>
+  
+    
+</tbody></table>
+
+    
+    
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	
+<div id="page-wrap"></div>
+
+
+</div>
+
+
+
+
+
+
+
+
+</body></html>
