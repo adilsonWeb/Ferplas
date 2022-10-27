@@ -148,9 +148,25 @@ hr.soften {margin: 8px 0;background: #DDD;}
 	top:160px;
 	width:20%;
 }
+/* .w3-navbar ul li{
+	list-style: none;
+	margin: 0;
+} */
+/* main,footer,header{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 20px;
+} */
+/* .w3-navbar ul{
+	margin: 0 auto;
+
+} */
+/* .row{
+	width: 100% !important;
+} */
 .relative{position:relative}
 body{
-	width: 100vw;
+	width: 100%;
 }
 .w3-top{
 	width: 100vh;
@@ -163,7 +179,7 @@ body{
 		flex-direction: column;
 	}
 	.w3-top{
-		width: 100vw;
+		width: 100%;
 		box-sizing: border-box;
 	}
 #sidebar{
@@ -177,9 +193,9 @@ body{
 }
 #sidebar li, .well{
 	margin: 0;
-	width: 100vw;
+	width: 100%;
 }
 .active{
-	width: 800px;
+	width: 100%;
 }
 }
